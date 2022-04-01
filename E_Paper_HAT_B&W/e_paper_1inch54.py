@@ -14,7 +14,7 @@ try:
     image = Image.new('1', (e_paper.width, e_paper.height), 255)  # 255: clear the frame
     
     draw = ImageDraw.Draw(image)
-    font = ImageFont.truetype(('pic/Font.ttc'), 28)
+    font = ImageFont.truetype(('images/Font.ttc'), 28)
     draw.text((8, 10), 'HELLO WORLD', font = font, fill = 0)
     draw.text((10, 60), '1.54 e-paper', font = font, fill = 0)
     draw.text((60, 100), 'HAT', font = font, fill = 0)
@@ -23,7 +23,7 @@ try:
     time.sleep(2)
     
     # read bmp file 
-    image = Image.open('pic/img.bmp')
+    image = Image.open('images/img.bmp')
     e_paper.display_image(e_paper.buffer(image))
     time.sleep(2)
 
@@ -33,8 +33,6 @@ try:
     e_paper.sleep()
     lib_1nch54_e_paper.e_paper_config.device_exit()
         
-
-    
 except KeyboardInterrupt:    
     lib_1nch54_e_paper.e_paper_config.device_exit()
     exit()
