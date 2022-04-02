@@ -7,4 +7,15 @@
 ## Pin Out
 <img src = "https://github.com/sbcshop/1.54-E-Paper-HAT/blob/main/images/img.jpg" />
 
+## Code
+There are two folder in GitHub repository
+ * E_Paper_HAT_B&W (Black Color)
+   * e_paper_1inch54.py        -> Run this file
+   * lib_1nch54_e_paper.py -> Library of 1.54 inch e-paper HAT
+   
+ * E-Paper_Hat_Red_Color (Red & Black Color)
+   * e_paper_1inch54c.py  -> Run this file 
+   * lib_1nch54c_e_paper.py    -> Library of 1.54 inch e-paper red color HAT
+   
+
 
