@@ -10,7 +10,7 @@
 <img src = "https://github.com/sbcshop/1.54-E-Paper-HAT/blob/main/images/img.jpg" />
 
 ## Code
-### First of all, you need to enable SPI in raspberry pi, for this you need to go "sudo raspi-config" then go to "interface options->SPI->yes->press enter" 
+### First of all, you need to enable SPI in raspberry pi, for this you need to go  ```sudo raspi-config ``` then go to "interface options->SPI->yes->press enter" 
 #### There are two folder in GitHub repository
  * E_Paper_HAT_B&W (Black Color)
    * e_paper_1inch54.py        -> Run this file
