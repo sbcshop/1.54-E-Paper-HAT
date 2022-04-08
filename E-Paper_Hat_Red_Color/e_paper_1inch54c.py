@@ -16,8 +16,8 @@ try:
     black_image = Image.new('1', (e_paper.width, e_paper.height), 255)  # 255: clear the frame
     red_image = Image.new('1', (e_paper.width, e_paper.height), 255)  # 255: clear the frame
     
-    font = ImageFont.truetype(('pic/Font.ttc'), 28)
-    font18 = ImageFont.truetype(('pic/Font.ttc'), 18)
+    font = ImageFont.truetype(('images/Font.ttc'), 28)
+    font18 = ImageFont.truetype(('images/Font.ttc'), 18)
     
     draw_black = ImageDraw.Draw(black_image)
     draw_red = ImageDraw.Draw(red_image)
@@ -28,17 +28,14 @@ try:
     time.sleep(1)
     
     # read bmp file 
-    black_image = Image.open('pic/img1.bmp')
-    red_image = Image.open('pic/img2.bmp')    
+    black_image = Image.open('images/img1.bmp')
+    red_image = Image.open('images/img2.bmp')    
     e_paper.display_image(e_paper.buffer(black_image),e_paper.buffer(red_image))
     time.sleep(1)
     
     e_paper.Clear_screen()
     
     e_paper.sleep()
-        
-except IOError as e:
-    logging.info(e)
     
 except KeyboardInterrupt:    
     lib_1nch54c_e_paper.e_paper_config4.device_exit()
