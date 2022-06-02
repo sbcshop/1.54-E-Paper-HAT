@@ -21,4 +21,8 @@
    * lib_1nch54c_e_paper.py    -> Library of 1.54 inch e-paper red color HAT
    
 
+## For e-paper datasheet go below link:-
 
+https://www.good-display.com/product/208.html
+
+https://www.good-display.com/product/285.html
