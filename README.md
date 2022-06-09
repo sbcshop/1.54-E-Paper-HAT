@@ -13,8 +13,9 @@
 ### First of all, you need to enable SPI in raspberry pi, for this you need to go  ```sudo raspi-config ``` then go to "interface options->SPI->yes->press enter" 
 #### There are two folder in GitHub repository
  * E_Paper_HAT_B&W (Black Color)
-   * e_paper_1inch54.py        -> Run this file
+   * e_paper_1inch54.py        -> Run this file (demo code)
    * lib_1nch54_e_paper.py -> Library of 1.54 inch e-paper HAT
+   * e_paper_1inch54_button.py -> Run this file if you want to use on board button
    
  * E-Paper_Hat_Red_Color (Red & Black Color)
    * e_paper_1inch54c.py  -> Run this file 
